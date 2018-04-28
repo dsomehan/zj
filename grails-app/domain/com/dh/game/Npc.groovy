@@ -1,4 +1,4 @@
-package com.dh.zj.game
+package com.dh.game
 /**npc**/
 class Npc {
     String id
@@ -11,6 +11,8 @@ class Npc {
     int sp=10
     int damage=20
     int defense=10
+    Date dateCreated
+    Date lastUpdated
     static mapping = {
         id generator:'assigned', params:[separator:'-']
     }
