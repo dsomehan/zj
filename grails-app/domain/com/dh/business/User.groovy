@@ -4,6 +4,7 @@ class User {
     String id
     String userName
     String userSex
+    String password
     int level=1
     long exp=0
     String country="新手"
